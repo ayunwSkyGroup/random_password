@@ -24,6 +24,7 @@ def genPassword():
                 and sum(assertStr(s) for s in password) == 2):
             break
     return password
- 
+
+
 if __name__ == "__main__":
   print(genPassword())
